@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.749f3bce.css",
+    "main.js": "/static/js/main.f574699f.js",
+    "static/media/open-eye-icon.png": "/static/media/open-eye-icon.026c9b987702afdad4de.png",
+    "index.html": "/index.html",
+    "main.749f3bce.css.map": "/static/css/main.749f3bce.css.map",
+    "main.f574699f.js.map": "/static/js/main.f574699f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.749f3bce.css",
+    "static/js/main.f574699f.js"
+  ]
+}

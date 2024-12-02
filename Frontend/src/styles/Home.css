@@ -1,0 +1,342 @@
+.train-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.train-info-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.train-card {
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.value {
+    font-size: 1rem;
+    color: white;
+}
+
+.value-add {
+    font-size: 1.3rem;
+    color: #f9f9f9;
+}
+
+.value-price {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.value-company {
+    font-size: 1rem;
+    color: #EBD3F8;
+}
+
+.train-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.train-info-personal {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label {
+    font-size: 0.8rem;
+    color: #EBD3F8;
+    opacity: 0.7;
+}
+
+.label-price {
+    font-size: 1rem;
+    color: #EBD3F8;
+    opacity: 0.7;
+}
+
+.order-button {
+    background-color: #4d4d50;
+    color: #F8F8FF;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: auto;
+    transition: color 0.3s ease;
+}
+
+.order-button:hover {
+    color: #EBD3F8;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.filter-section input {
+    background-color: #37373c;
+    width: 110px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #F8F8FF;
+    opacity: 0.7;
+}
+
+.filter-section input[type="date"] {
+    height: 17px;
+}
+
+.filter-section button {
+    background-color: black;
+    color: #F8F8FF;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.filter-section button:hover {
+    color: #EBD3F8;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+input::placeholder {
+    color: #F8F8FF;
+}
+
+.view-button {
+    background-color: #f9f9f9;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #bfbfbf;
+}
+
+.pay-button {
+    background-color: #327ed5;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #0f4b8c;
+}
+
+.cancel-button {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #881717;
+}
+
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.confirm-button {
+    background-color: #327ed5;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #0f4b8c;
+}
+
+.tickets-container {
+    background-color: #221129;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ticket-card {
+    background-color: #35223e;
+    border: 2px solid #EBD3F8;
+    color: #EBD3F8;
+    border-radius: 7px;
+    padding: 15px;
+    width: calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+
+.ticket-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.train-card.inactive {
+    background-color: #2e2e2e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.form-input {
+    margin-top: 2px;
+    background: #303030;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #303030;
+    border-radius: 6px;
+    font-size: 0.9em;
+    color: #EBD3F8;
+    transition: border-color 0.3s ease;
+}
+
+.payment-form {
+    background-color: #221129;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.filter-button:hover {
+    background: #3c3c3c;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(92%) sepia(13%) saturate(600%) hue-rotate(270deg);
+    opacity: 1;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(92%) sepia(13%) saturate(600%) hue-rotate(270deg);
+    opacity: 1;
+}
+
+.add-new-button {
+    display: flex;
+    justify-content: center; /* Центрує по горизонталі */
+    align-items: center; /* Центрує по вертикалі (в контейнері, якщо задана висота) */
+    width: 100%; /* Робить кнопку широкою */
+    max-width: 300px; /* Обмежує максимальну ширину кнопки */
+    margin: 1rem auto; /* Додає відступи зверху/знизу та центрує по горизонталі */
+    background-color: black; /* Фон кнопки */
+    color: #F8F8FF; /* Колір тексту */
+    padding: 1rem 1rem; /* Внутрішні відступи */
+    border-radius: 8px; /* Закруглені кути */
+    font-size: 1.2rem; /* Розмір тексту */
+    text-align: center; /* Вирівнювання тексту */
+    cursor: pointer; /* Змінює курсор на "руку" */
+    border: none; /* Видаляє рамку */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Додає тінь */
+    transition: color 0.3s ease; /* Анімація зміни фону */
+}
+
+.add-new-button:hover {
+    color: #EBD3F8;
+}
+
+.add-new-button.active {
+    color: #EBD3F8;
+}
+
+.delete-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.delete-button {
+    background-color: #d52d2d;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #881717;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

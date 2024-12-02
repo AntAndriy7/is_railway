@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body, html {
+    background: linear-gradient(to right, #cfcffb, #e7ccff);
+}
+
+.user-page {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: linear-gradient(to right, #cfcffb, #e7ccff);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.header-left {
+    padding-left: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.header-left:hover {
+    background: #EBD3F8;
+}
+
+.header-right {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.content {
+    padding: 20px;
+}
+
+.main-content {
+    padding: 40px;
+    background-color: #F8F8FF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: black;
+}
+
+.logo span {
+    display: block;
+    margin-left: 0.2em;
+    font-weight: normal;
+}
+
+.logo span::first-letter {
+    font-weight: bold;
+}
+
+.logoImage {
+    width: 100px;
+    height: 80px;
+}
+
+.cabinetImage {
+    width: 19px;
+    height: 19px;
+    margin-left: 1rem;
+}
+
+.login-button {
+    color: #F8F8FF;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-button:hover {
+    color: #EBD3F8;
+}
+
+.logout-button {
+    color: #F8F8FF;
+    background: black;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button:hover {
+    color: #EBD3F8;
+}
+
+.nav-container {
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
